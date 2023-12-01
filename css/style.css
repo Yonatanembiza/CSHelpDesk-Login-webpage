@@ -34,6 +34,7 @@ h1 {
     width: 100%;
     text-align: right;
     vertical-align: middle;
+    padding-top: 20px;
 }
 .container2 {
     display: flex;    
@@ -111,5 +112,5 @@ footer{
 }
 #orloginusing{
     text-align: center;
-    text-decoration-style:wavy;
+    text-decoration:wavy;
 }
