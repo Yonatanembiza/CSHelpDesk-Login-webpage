@@ -53,7 +53,7 @@ h1 {
     border-width: 50px;
     width: auto;
     height: 5%;
-    border: 1px solid black;
+    border: 2px solid whitesmoke;
     background-color:azure;
     padding-left: 155px;
     padding-right: 155px;
@@ -74,8 +74,9 @@ footer{
     text-align: right;
 }
 #orloginusing{
-    text-align: center;
-    stroke-dashoffset: 5px;
+    width: 70%;
+    font-size: 18px;
+    
 }
 #login{
     text-align: center;
