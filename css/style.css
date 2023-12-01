@@ -1,3 +1,6 @@
+body{
+    border-radius: 5px;
+}
 h1 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
@@ -49,10 +52,11 @@ h1 {
 .imageazure{
     border-width: 50px;
     width: auto;
-    height: 10%;
-    border: 1px solid whitesmoke;
-    padding-left: 100px;
-    padding-right: 100px;
+    height: 5%;
+    border: 1px solid black;
+    background-color:azure;
+    padding-left: 155px;
+    padding-right: 155px;
 }
 
 footer{
@@ -61,10 +65,10 @@ footer{
 }
 
 #password{
-    width: 350px ;    
+    width: 390px ;    
 }
 #username{
-    width: 350px;
+    width: 390px;
 }
 #forgotpassword{
     text-align: right;
@@ -75,8 +79,37 @@ footer{
 }
 #login{
     text-align: center;
+    font-family: Times, serif;
+    font-size: 16px;
     background-color: black;
+    border-radius: 5px;
     color: white;
-    width: 350px;
-    height: auto;
+    width: 395px;
+    height: 30px;
+}
+#submitbtn{
+    text-align: center;
+    font-family: Times, serif;
+    font-size: 16px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    width: 110px;
+    height: 30px;
+}
+.container3{
+    display: flex;
+}
+
+#RememberMe{
+    display: flex;
+    width: 100%;
+}
+#forgotpassword{
+    display: flex;
+    width: 100%;
+}
+#orloginusing{
+    text-align: center;
+    text-decoration-style:wavy;
 }
