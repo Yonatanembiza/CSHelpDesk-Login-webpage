@@ -6,17 +6,37 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>CSHelpDesk-Login-webpage</title>
     <!-- Styling in addition to the CSS styles (in case i need it) -->
-    <link rel="stylesheet" href="./css/">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        #password{
+            width: 350px ;    
+        }
+        #username{
+            width: 350px;
+        }
+        #forgotpassword{
+            text-align: right;
+        }
+        #orloginusing{
+            text-align: center;
+            stroke-dashoffset: 5px;
+        }
+        #login{
+            text-align: center;
+            background-color: black;
+            color: white;
+            width: 350px;
+            height: auto;
+        }
+    </style>
 </head>
 
 <body>
     <header>
-        <div class="container1">
-            <div id="div11">
-                <img class="imagelogo" src="images/miu-logo.png" alt="MIU logo">
-            </div>
+        <div id="div11">
+            <!--<img id="imagelogo" src="images/miu-logo.png" alt="MIU logo">-->
             <div id="div12">
-                <h3>Maharishi University IT Dept</h3>
+                <p id="logotext"> <span><img id="imagelogo" src="images/miu-logo.png" alt="MIU logo"></span> Maharishi University IT Dept</p>
             </div>
             <div id="div13">
                 <a href="#">Agent Portal</a>
@@ -32,23 +52,23 @@
             <div id="div21">
                 <h2>Login</h2>
                 <p>Login to know the status of the ticket</p>
-                <a href=""><img class="imageazure" src="images/azure-pic.png" alt="Azure logo"></a>
-                <p>or login using</p>
-                <p>Username</p>
-                <input type="text">
-                <p>Password</p>
-                <input type="text">
+                <a href=""><img class="imageazure" src="images/azure-pic.png" alt="Azure logo"></a><br><br>
+                <label for="orloginusing" id="orloginusing" >or login using</label><br>
+                <label for="username">Username</label> <br>
+                <input type="text" name="username" id="username" width="50"><br><br>
+                <label for="password">Password</label><br>
+                <input type="text" name="password" id="password" maxlength="18" placeholder="password">
                 <br>
-                <input type="checkbox" name="Remember me" id="RememberMe">
-                <a href="">Forgot Password?</a>
-                <br>
-                <button>Login</button>
-            </div>
+                <input type="checkbox" name="Remember me" id="RememberMe"><label for="RememberMe">Remember me</label>
+                <a id="forgotpassword" href="">Forgot Password?</a>
+                <br><br>
+                <button type="login" name="login" id="login">Login</button>
+            </div>           
             <div id="div22">
                 <p>Login to track your existing support requests. If you haven't created a ticket yet then you would
                     need to <a href="">register</a> or <a href="">create a new ticket</a> to begin.
                 </p>
-                <button>Submit ticket</button>
+                <input type="submit" name="submit" id="submit">
             </div>
         </div>
     </main>

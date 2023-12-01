@@ -1,56 +1,82 @@
-
-h1{
+h1 {
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 16px;
+    font-size: 20px;
     background-color:darkslategrey;
     margin: auto;
     padding: 50px;
     text-align: center;
 }
-main{
-    font-size: 20px;
-}
-h2{
-    font-size: 30px;
-}
-.imagelogo{
-    width: 20%;
-    height: 20%;
-    display: block;
-}
-.imageazure{
-    align-content: center;
-    border-width: 50px;
+
+#imagelogo{
     width: 10%;
-    height: 5%;
+    height: auto;
+    vertical-align: middle;    
+    border-right: 2px solid gainsboro;
+}
+
+#div11{
+    display: flex;
+    justify-content: space-between;
+}
+#logotext{
+    vertical-align: middle;
+}
+#div12{
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+#div13{
+    width: 100%;
+    text-align: right;
+    vertical-align: middle;
 }
 .container2 {
     display: flex;    
     margin: 30px 200px 30px 200px;
 }
 #div21 {
+    width: 50%;
     align-content: center;
     border-right: 2px solid gainsboro;
-    padding-right: 150px;
+    padding-right: 10px;
 }
 #div22 {
     align-content: center;
     padding-left: 100px;
 }
-.container1{
-    display:flex;
-    width: 100%;
-  
-}
-.container1 div{
-    display: inline;
+.imageazure{
+    border-width: 50px;
+    width: auto;
+    height: 10%;
+    border: 1px solid whitesmoke;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 footer{
     border-top: 1px solid black; 
     text-align: right;
 }
-#div3{
+
+#password{
+    width: 350px ;    
+}
+#username{
+    width: 350px;
+}
+#forgotpassword{
     text-align: right;
+}
+#orloginusing{
+    text-align: center;
+    stroke-dashoffset: 5px;
+}
+#login{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: auto;
 }

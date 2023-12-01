@@ -1,0 +1,55 @@
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color:darkslategrey;
+    margin: auto;
+    padding: 50px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+}
+.imagelogo{
+    width: 20%;
+    height: 20%;
+    display: block;
+}
+.imageazure{
+    align-content: center;
+    border-width: 50px;
+    width: 10%;
+    height: 5%;
+}
+.container2 {
+    display: flex;    
+    margin: 30px 200px 30px 200px;
+}
+#div21 {
+    align-content: center;
+    border-right: 2px solid gainsboro;
+    padding-right: 150px;
+}
+#div22 {
+    align-content: center;
+    padding-left: 100px;
+}
+.container1{
+    display: flex;
+    width: 100%;
+  
+}
+.container1>div{
+    display: inline;
+}
+.container1#div11{
+    display: flex;
+}
+footer{
+    border-top: 1px solid black; 
+    text-align: right;
+}
+#div3{
+    text-align: right;
+}
